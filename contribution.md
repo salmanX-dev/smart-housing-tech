@@ -1,46 +1,27 @@
 # Contributing to Smart Housing
 
-This guide records the team's initial collaboration practices for the shared semester project. Update it when the group agrees on a better workflow.
+This guide records the team's initial workflow for Assignment 1. The group should confirm task owners and any proposed responsibilities before work begins.
 
 ## Team
 
-- Muhammad Sanan — GitHub username: to be added
-- Zain Ali — GitHub username: to be added
-- Salman Khan — GitHub username: to be added
+- Muhammad Sanan — GitHub username to be confirmed
+- Zain Ali — GitHub username to be confirmed
+- Salman Khan — salmanX-dev
 
-Each member should use their own GitHub account so contributions are attributable and traceable.
+Use individual GitHub accounts so each member's contributions are attributable. The repository is public; repository collaborator access for the other members is still to be arranged.
 
-## Making a contribution
+## Contribution workflow
 
-1. Check `docs/backlog.md` and agree on the task with the team. Add an owner before work begins.
-2. Make a focused change related to that task.
-3. Review the change yourself and ensure documentation matches the current application behavior.
-4. Commit with a short, meaningful message describing the change, for example:
-   - `Add initial Smart Housing requirements`
-   - `Document verified rule profile coverage`
-   - `Update backlog priorities after team review`
-5. Push your work to the shared public repository. If the team uses pull requests, ask another member to review before merging.
-6. Update `docs/backlog.md` and relevant documentation when the task is complete.
+1. Choose an item from the root-level [backlog](backlog.md) and agree on an owner with the group.
+2. Work on one focused change and keep the project documents consistent with the agreed scope and verified application behavior.
+3. Review your changes with the team before they are included in the shared project.
+4. Commit from your own GitHub account with a short, descriptive message, for example: Update project requirements or Document verified rule coverage.
+5. Update the backlog status when work starts or is completed.
 
-## Suggested initial responsibilities
+## Repository files
 
-These are proposals for the group to confirm or change. All members should participate in repository work and review each other's contributions.
+The current project documents are in the repository root: README.md, requirements.md, backlog.md, and contribution.md. Keep one current copy of each document and use lowercase names with the .md extension.
 
-| Member | Suggested focus |
-|---|---|
-| Muhammad Sanan | Set up the repository and inspect the supplied application source. |
-| Zain Ali | Research and record the sources and status of the CDA, PDA, LDA, DHA, and custom rule profiles. |
-| Salman Khan | Coordinate the requirements, backlog, README, and assignment documentation. |
+## Suggested versioning
 
-After agreeing, record owners for specific tasks in `docs/backlog.md`. Avoid presenting these proposed roles as completed work until each member accepts and carries them out.
-
-## Documentation and naming
-
-- Keep one current copy of each document; use Git history to track edits.
-- Use clear lowercase names for documentation files, such as `docs/requirements.md` and `docs/backlog.md`.
-- Keep requirements and backlog items concise and update them when project decisions change.
-- Distinguish implemented features from planned features and unverified rule data.
-
-## Versions
-
-Use Git tags for significant versions, such as `v0.1.0` for an initial development milestone. Do not create duplicate files to represent versions.
+Use a version tag such as v0.1.0 after the group reviews and agrees that the first milestone is ready.
