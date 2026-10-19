@@ -1,61 +1,36 @@
-# Smart Housing
+  # Smart Housing
 
-Smart Housing is an architecture planning application intended to help users create residential house plans using selected building-rule profiles for CDA, PDA, LDA, DHA, and user-defined custom rules.
+Smart Housing is a residential planning project intended to help users create house layouts and review them against selected building rules.
 
-> **Project status:** Assignment 1 planning and repository setup. The group still needs to confirm the application source, verify which rule profiles are implemented, and agree on the development scope. The supplied archive is branded **GharPlan**. Its code includes a PDA profile, approximate LDA and CDA profiles, and custom rules; a DHA profile was not found in the inspected rule data. Do not describe a rule profile as implemented or officially verified until the group checks the code and current authority rules.
+## Problem and objectives
 
-## Problem
-
-People planning a home need to consider plot dimensions, room arrangements, and local building rules. Smart Housing aims to make early layout planning and rule checking easier to understand. Its output is for planning support and must not be treated as official approval or a substitute for review by a qualified professional.
-
-## Objectives
-
-- Let users enter plot details and plan residential layouts.
-- Provide rule profiles for the target authorities and allow custom rule values, as the implementation supports them.
-- Help users identify possible rule conflicts while editing a plan.
-- Save, reopen, and export their work, if supported by the adopted implementation.
+Planning a home involves fitting rooms into a plot and considering local building rules. Smart Housing aims to support early layout planning, show possible rule conflicts, and let users choose supported rule profiles or custom values where available.
 
 ## Intended users
 
-- Homeowners and people exploring residential layouts.
-- Architecture and engineering students.
-- Architects, draftspeople, or builders preparing an early concept for discussion.
+Homeowners, architecture and engineering students, and design professionals preparing early concepts.
 
-## Group members
+## Group
 
-| Name | GitHub username | Initial responsibility |
+| Member | GitHub username | Suggested responsibility |
 |---|---|---|
-| Muhammad Sanan | To be added | Suggested: repository setup and source review |
-| Zain Ali | To be added | Suggested: rule-profile research and verification |
-| Salman Khan | To be added | Suggested: requirements, backlog, and documentation coordination |
+| Muhammad Sanan | To be confirmed | Repository and source review |
+| Zain Ali | To be confirmed | Rule-profile research |
+| Salman Khan | salmanX-dev | Requirements and documentation coordination |
 
-Each member should use their own GitHub account and make traceable contributions to the shared repository.
-These are draft role suggestions; agree on them as a group and update this table.
+Confirm usernames and responsibilities as a group. Each member must use their own account and contribute meaningful commits.
 
-## Repository contents
+## Repository files
 
-- `README.md` — project overview and current status.
-- `docs/requirements.md` — initial requirements, assumptions, constraints, and limitations.
-- `docs/backlog.md` — prioritized initial work list.
-- `contribution.md` — team collaboration and contribution guidance.
-- `model/` — application source, once the group confirms and adopts the supplied code.
+- README.md — overview and status.
+- requirements.md — initial requirements, assumptions, constraints, and limitations.
+- backlog.md — prioritized task list.
+- contribution.md — collaboration guidance and proposed responsibilities.
 
-## Getting started
+## Status
 
-The supplied archive's application is under `model/` and its README says to open `model/index.html` in Chrome or Edge. Confirm this remains valid after adopting the source and renaming/rebranding it as Smart Housing. See `model/README.md` for its existing usage details.
+The public repository and initial assignment documents are in place. Next, confirm all group members' usernames and collaborator access, make individual contributions, agree on responsibilities, and review whether to adopt the supplied GharPlan code as Smart Housing.
 
-## Current project status
+The supplied archive's rule data includes a PDA profile, approximate LDA and CDA profiles, and custom rules. No DHA profile was found. Treat DHA support as planned until implemented and verified. Building rules change and vary by authority; software checks cannot guarantee official approval. The repository currently contains assignment documents only; add application source after the group confirms the codebase.
 
-**In progress:** agree the initial project scope, create the shared public GitHub repository, add all members as collaborators, review the supplied application source, and commit this assignment documentation. Update this section as the team makes progress.
-
-## Versioning
-
-Use Git history and tags for project versions. Suggested first planning tag: `v0.1.0`. Do not create duplicate file copies to represent versions.
-
-## Important limitations
-
-- Building regulations can change and may vary by location or housing society. Confirm current requirements with the relevant authority.
-- Rule checks are planning aids, not a guarantee of legal compliance or approval.
-- The supplied code describes its LDA and CDA presets as approximate. The inspected rule data did not contain a DHA preset.
-- Supported browsers, import/export behavior, and data storage should be confirmed against the version the group adopts.
-
+Use Git history and tags, such as v0.1.0, to mark versions. Do not create duplicate files for versions.
