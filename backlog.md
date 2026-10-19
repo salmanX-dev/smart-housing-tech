@@ -1,21 +1,20 @@
 # Smart Housing — Initial Product Backlog
 
-This backlog is a starting point for team discussion. Priority labels are `Must`, `Should`, and `Could`; reorder or revise items as the team learns more. Assign a real owner during the team meeting.
+Use this list as a starting point and update it during team discussions. Priorities are Must, Should, and Could. Assign owners only after the group agrees.
 
-| ID | Priority | Backlog item | Initial acceptance notes | Owner | Status |
+| ID | Priority | Backlog item | Acceptance notes | Owner | Status |
 |---|---|---|---|---|---|
-| B-01 | Must | Create the public shared GitHub repository and add all group members. | Repository is publicly accessible; Muhammad Sanan, Zain Ali, and Salman Khan have collaborator access using their own accounts. | To assign | Not started |
-| B-02 | Must | Review the supplied architecture software and agree whether to adopt it as Smart Housing. | Group records what source is used, what will be renamed, and what features are in scope. | To assign | Not started |
-| B-03 | Must | Add the initial README, requirements, backlog, and contribution guide. | All four files are committed in the shared repository and accurately describe the agreed project. | To assign | Draft prepared |
-| B-04 | Must | Verify rule profile coverage and sources for CDA, PDA, LDA, DHA, and custom rules. | For each profile, document current support, authoritative source, verification date, and known gaps; do not call approximate values verified. | To assign | Not started |
-| B-05 | Must | Define the first usable planning workflow. | Team documents how a user enters a plot, creates a layout, and receives rule feedback based on supported features. | To assign | Not started |
-| B-06 | Should | Document supported save, reopen, import, export, and print behavior. | Team checks each operation in the adopted version and updates README and requirements accordingly. | To assign | Not started |
-| B-07 | Should | Agree on a consistent folder and file naming convention. | Repository uses a documented, consistent structure and keeps one current copy of each document. | To assign | Not started |
-| B-08 | Should | Establish team contribution and review practices. | Each member knows how to propose changes, review work, and keep commits attributable. | To assign | Not started |
-| B-09 | Could | Improve usability with a first-time user guide or in-app help. | A new user can complete the agreed first planning workflow using the guide. | To assign | Not started |
-| B-10 | Could | Prepare a release tag after the initial milestone. | Team agrees the milestone is ready and tags it, for example `v0.1.0`. | To assign | Not started |
+| B-01 | Must | Add all members as collaborators to the public repository. | Muhammad Sanan, Zain Ali, and Salman Khan have access through their own accounts. | To assign | In progress |
+| B-02 | Must | Review the supplied architecture software and agree whether to adopt it as Smart Housing. | The group records the chosen source, scope, and any rebranding. | To assign | Not started |
+| B-03 | Must | Review the initial README, requirements, backlog, and contribution guide as a group. | The documents reflect agreed scope and are consistent with the repository. | To assign | In progress |
+| B-04 | Must | Verify rule profile coverage and sources for CDA, PDA, LDA, DHA, and custom rules. | Record source, verification date, implementation status, and gaps; do not label approximate values as verified. | To assign | Not started |
+| B-05 | Must | Define the first supported planning workflow. | Document how a user enters plot details, creates a layout, and receives rule feedback. | To assign | Not started |
+| B-06 | Should | Confirm save, reopen, import, export, and print behavior. | Test the adopted version and document only confirmed behavior. | To assign | Not started |
+| B-07 | Should | Agree on the repository structure and file naming convention. | Keep one current copy of each document and use consistent names. | To assign | In progress |
+| B-08 | Should | Agree on contribution and review practices. | Each member has an agreed task and makes attributable commits from their own account. | To assign | In progress |
+| B-09 | Could | Prepare a first-time user guide or improve in-app help. | A new user can complete the agreed first planning workflow. | To assign | Not started |
+| B-10 | Could | Tag the first agreed development milestone. | Team reviews the milestone and creates a tag such as v0.1.0. | To assign | Not started |
 
-## Suggested first milestone
+## First milestone
 
-Complete B-01 through B-05, then review the documents as a group. Before submission, ensure the public repository contains the requirements document and the same requirements document is submitted in an instructor-approved format.
-
+Confirm member access and responsibilities, validate the documents and candidate source, and agree on the supported first workflow. Submit the requirements document in PDF or another instructor-approved format and keep the same document in the repository.
