@@ -1,16 +1,16 @@
-# Smart Housing — Initial Requirements
+# Smart Housing - Initial Requirements
 
 **Document status:** Initial draft for Assignment 1; revise as the group validates the application and agrees on scope.
 
 ## 1. Project and group
 
-**Project title:** Smart Housing — Residential Architecture Planning Software
+**Project title:** Smart Housing - Residential Architecture Planning Software
 
 | Name | GitHub username |
 |---|---|
-| Muhammad Sanan | To be added |
-| Zain Ali | To be added |
-| Salman Khan | To be added |
+| Muhammad Sanan | `sanan14356` |
+| Zain Ali | `Zainalii22` |
+| Salman Khan | `salmanX-dev` |
 
 ## 2. Problem statement
 
